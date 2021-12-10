@@ -1,0 +1,65 @@
+<!doctype html>
+<title>Example</title>
+<style>
+* {
+  box-sizing: border-box; 
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+}
+#main {
+  display: flex;
+  flex: 1;
+}
+#main > article {
+  flex: 1;
+}
+#main > nav, 
+#main > aside {
+  flex: 0 0 20vw;
+  background: rgb(243, 243, 25);
+}
+#main > nav {
+  order: -1;
+  background: rgb(241, 88, 17);
+}
+header {
+  background: rgb(165, 50, 211);
+  height: 20vh;
+}
+footer {
+  background: rgb(30, 226, 240);
+  height: 20vh;
+}
+article {
+  background: rgb(37, 248, 47);
+  padding: 1em;
+}
+</style>
+<body>
+  <header><h1><center><b> Welcome to Flexbox Website </b></center></h1></header>
+  <div id="main">
+    <article class="article">
+        <h2><b> Artical 1:</b></h2>
+            <p> This is a flexbox website page .This is a flexbox website page .This is a flexbox website page .This is a flexbox website page .This is a flexbox website page .This is a flexbox websie page .This is a flexbox website page .This is a flexbox website page .This is a flexbox website page .vThis is a flexbox website page .This is a flexbox website page .This is a flexbox website page .</p>
+    </article>
+    <article class="article">
+        <h2><b> Artical 2:</b></h2>
+        <p> This is a flexbox website page.This is a flexbox website page .This is a flexbox website page .This is a flexbox website page .This is a flexbox website page .This is a flexbox website page .This is a flexbox websie page .This is a flexbox website page .This is a flexbox website page .This is a flexbox website page .vThis is a flexbox website page .This is a flexbox website page .This is a flexbox website page .</p>
+    </article>
+    <article class="article">
+        <h2><b> Artical 3:</b></h2>
+        <p> This is a flexbox website page .This is a flexbox website page .This is a flexbox website page .This is a flexbox website page .This is a flexbox website page .This is a flexbox website page .This is a flexbox websie page .This is a flexbox website page .This is a flexbox website page .This is a flexbox website page .vThis is a flexbox website page .This is a flexbox website page .This is a flexbox website page .</p>
+    </article>
+    <article class="article">
+        <h2><b> Artical 4:</b></h2>
+        <p> This is a flexbox website page .This is a flexbox website page .This is a flexbox website page .This is a flexbox website page .This is a flexbox website page .This is a flexbox website page .This is a flexbox websie page .This is a flexbox website page .This is a flexbox website page .This is a flexbox website page .vThis is a flexbox website page .This is a flexbox website page .This is a flexbox website page .</p>
+    </article>
+    <nav><h1><b>Navigation Bar</h1></b></nav>
+    <aside><h1><b><center>Aside</center></h1></b></aside>
+  </div>
+  <footer><h1><b><center>Footer</center></h1></b></footer>
+</body>
