@@ -1,0 +1,77 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(154, 255, 255);
+        }
+
+        .headerContainer {
+            display: flex;
+            flex-flow: column wrap;
+            align-content: center;
+            background: rgba(0, 43, 16, 0.89);
+            font-weight: bold;
+            color: #F6F3EB;
+        }
+
+        .media {
+            display: flex;
+            align-items: flex-start;
+            background: #ffe49a;
+            padding: 1em;
+            border-radius: 3px;
+            max-width: 60em;
+        }
+
+        .mediaObject {
+            margin-right: 1em;
+            width: 180px;
+        }
+
+        .mediaBody {
+            flex: 1;
+        }
+
+        .heading {
+            margin: 0 0 15px;
+        }
+        .para{
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="headerContainer">
+        <h1>Welcome To Flexbox Media Object</h1>
+    </header>
+    
+    <br>
+
+    <div class="media">
+        <img class="mediaObject" src="1.jpg" alt="Sample photo">
+        <div class="mediaBody">
+            <h2 class="heading">Grand Hyatt Seoul</h2>
+            <p class="para">Food options at Pan Pacific Kuala Lumpur International Airport include a restaurant. Breakfast is available (additional charge). Room service is also available. Our hotel provides a 24-hour front desk service.</p>
+
+            <div class="media">
+                <img class="mediaObject" src="2.jpg" alt="Sample photo">
+                <div class="mediaBody">
+                    <h2 class="heading">Sama-Sama Hotel KL International Airport</h2>
+                    <p class="para">Food options at Pan Pacific Kuala Lumpur International Airport include a restaurant. Breakfast is available (additional charge). Room service is also available. Our hotel provides a 24-hour front desk service.</p>
+                    
+                    <div class="media">
+                        <div class="media-object">&phone;</div>
+                        <div class="media-body">
+                          <h3 class="media-heading">Organically Synthesized</h3>
+                          <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+                </div>
+                </div>
+        </div>
+    </div>
+</body>
+
+</html>
